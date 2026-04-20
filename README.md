@@ -6,7 +6,7 @@ A developer portfolio reimagined as a fully functional IDE. This project is buil
 
 ## 👤 About Me
 
-**Amit Kumar Mohanta** — Full-Stack Developer & AI Integration Enthusiast  
+**Amit Kumar Mohanta** — Full-Stack Developer & AI/ML
 📍 Rourkela, Odisha, India  
 🎓 B.Tech CSE @ KIIT University, Bhubaneswar (2023–2027)  
 📧 amitmohanta2002@gmail.com  
