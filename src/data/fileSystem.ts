@@ -239,7 +239,7 @@ yarn-error.log*
   "email": "amitmohanta2002@gmail.com",
   "phone": "+91 7978754540",
   "github": "https://github.com/zeenutt769",
-  "linkedin": "linkedin.com/in/amit-mohanta",
+  "linkedin": "linkedin.com/in/amit-mohanta1410",
   "location": "Rourkela, Odisha, India",
   "looking_for": [
     "Internships",

@@ -178,7 +178,7 @@ export const ContentRenderer = ({ type, data, title, onOpenFile, content, editor
                                     <a href="https://github.com/arnofrxdd" target="_blank" rel="noopener noreferrer" className="p-2 bg-[var(--bg-activity)] hover:bg-[var(--accent)]/20 border border-[var(--border)] rounded-sm text-[var(--text-secondary)] hover:text-[var(--accent)] transition-all">
                                         <Github size={20} />
                                     </a>
-                                    <a href="https://www.linkedin.com/in/arnav-dalai-557214252/" target="_blank" rel="noopener noreferrer" className="p-2 bg-[var(--bg-activity)] hover:bg-[var(--accent)]/20 border border-[var(--border)] rounded-sm text-[var(--text-secondary)] hover:text-[var(--accent)] transition-all" title="LinkedIn">
+                                    <a href="https://www.linkedin.com/in/amit-mohanta1410/" target="_blank" rel="noopener noreferrer" className="p-2 bg-[var(--bg-activity)] hover:bg-[var(--accent)]/20 border border-[var(--border)] rounded-sm text-[var(--text-secondary)] hover:text-[var(--accent)] transition-all" title="LinkedIn">
                                         <Linkedin size={20} />
                                     </a>
                                 </div>

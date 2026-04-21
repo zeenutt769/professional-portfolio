@@ -250,7 +250,7 @@ export const SecondarySidebar = ({ isOpen, activeTabId, onClose }: SecondarySide
                                             <Github size={13} />
                                             <span className="text-[11px] font-sans">GitHub</span>
                                         </a>
-                                        <a href="https://linkedin.com/in/amit-mohanta" target="_blank" rel="noreferrer" className="flex items-center gap-2 p-2 hover:bg-[var(--bg-activity)] transition-colors text-[var(--text-secondary)] hover:text-[var(--text-primary)]">
+                                        <a href="https://www.linkedin.com/in/amit-mohanta1410/" target="_blank" rel="noreferrer" className="flex items-center gap-2 p-2 hover:bg-[var(--bg-activity)] transition-colors text-[var(--text-secondary)] hover:text-[var(--text-primary)]">
                                             <Linkedin size={13} />
                                             <span className="text-[11px] font-sans">LinkedIn</span>
                                         </a>
