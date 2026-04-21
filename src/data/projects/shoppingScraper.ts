@@ -26,8 +26,7 @@ The engine is built to be extensible—new scrapers can be added by simply regis
     links: {
         github: "https://github.com/zeenutt769/bazzarly-backend"
     },
-    image:
-        "https://raw.githubusercontent.com/arnofrxdd/portfolio/main/scrapper.png",
+    image: "https://opengraph.githubassets.com/1/zeenutt769/bazzarly-backend?v=1776804134970",
 
     imageStyle: {
         maxWidth: "700px",

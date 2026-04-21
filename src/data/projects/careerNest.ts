@@ -30,8 +30,7 @@ The application is fully containerized with Docker, making it deployment-ready. 
         github: "https://github.com/amit-mohanta/CareerNest",
         live: "https://github.com/amit-mohanta/CareerNest"
     },
-    image:
-        "https://opengraph.githubassets.com/1/zeenutt769/CareerNest",
+    image: "./careernest.png",
     date: "2026",
     role: "Full-Stack Developer & Project Lead",
     highlights: [

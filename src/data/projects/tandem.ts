@@ -44,7 +44,7 @@ TANDEM is a real-time collaborative code editor built for seamless multi-user de
         github: "https://github.com/zeenutt769/TANDEM",
         live: "https://tandem-editor.vercel.app"
     },
-    image: "https://opengraph.githubassets.com/1/zeenutt769/TANDEM",
+    image: "./TANDEM.png",
     date: "2025",
     role: "Full-Stack Developer",
     highlights: [

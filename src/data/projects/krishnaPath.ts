@@ -44,7 +44,7 @@ The AI persona is engineered to speak as a compassionate spiritual mentor, use m
         github: "https://github.com/zeenutt769/Project-Krishnapath",
         live: "https://github.com/zeenutt769/Project-Krishnapath"
     },
-    image: "https://opengraph.githubassets.com/1/zeenutt769/Project-Krishnapath",
+    image: "./krishnapath.png",
     date: "2025",
     role: "Full-Stack Developer & AI Engineer",
     highlights: [

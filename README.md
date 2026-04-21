@@ -35,7 +35,7 @@ A developer portfolio reimagined as a fully functional IDE. This project is buil
 ### 1. Clone & Install
 ```bash
 git clone https://github.com/zeenutt769/ide-portfolio.git
-cd ide-portfolio
+cd PRO-portfolio
 npm install
 ```
 

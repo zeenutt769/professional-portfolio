@@ -44,7 +44,7 @@ Live: https://zeenu002-asd-detection-api.hf.space/
         github: "https://github.com/zeenutt769/NeuroScreen",
         live: "https://zeenu002-asd-detection-api.hf.space/"
     },
-    image: "https://opengraph.githubassets.com/1/zeenutt769/NeuroScreen",
+    image: "./neuroscreen.png",
     date: "2025",
     role: "ML Engineer & Full-Stack Developer",
     highlights: [

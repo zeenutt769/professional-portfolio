@@ -23,8 +23,7 @@ Built with React.js on the frontend for a responsive, dynamic UI, and Node.js wi
     links: {
         github: "https://github.com/amit-mohanta/ExpenseTracker"
     },
-    image:
-        "https://opengraph.githubassets.com/1/zeenutt769/ExpenseTracker",
+    image: "https://opengraph.githubassets.com/1/zeenutt769/ExpenseTracker?v=1776804134970",
     date: "2024",
     role: "Full-Stack Developer",
     highlights: [

@@ -28,8 +28,7 @@ The system supports real-time cart synchronization, availability checks, bulk or
     links: {
         github: "https://github.com/zeenutt769/shoe-store"
     },
-    image:
-        "https://raw.githubusercontent.com/arnofrxdd/portfolio/main/Screenshot%202026-01-11%20234842.png",
+    image: "https://opengraph.githubassets.com/1/zeenutt769/shoe-store?v=1776804134970",
 
     imageStyle: {
         maxWidth: "1000px",
