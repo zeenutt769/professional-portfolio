@@ -15,9 +15,9 @@ export const CustomScrollbarStyles = () => (
       background: transparent;
     }
 
-    /* 3. The "Ghost" Thumb: Invisible by default */
+    /* 3. The "Ghost" Thumb: Slightly visible by default */
     .custom-scrollbar::-webkit-scrollbar-thumb {
-      background-color: transparent;
+      background-color: rgba(121, 121, 121, 0.2);
       border: 2px solid transparent;
       background-clip: content-box;
       transition: background-color 0.2s ease;

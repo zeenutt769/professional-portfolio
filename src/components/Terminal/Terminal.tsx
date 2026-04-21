@@ -24,6 +24,43 @@ export const IntegratedTerminal = ({ isOpen, onClose, onOpenFile }: TerminalProp
     const scrollRef = useRef<HTMLDivElement>(null);
     const inputRef = useRef<HTMLInputElement>(null);
 
+    const [height, setHeight] = useState(256);
+    const [isDragging, setIsDragging] = useState(false);
+    const startY = useRef(0);
+    const startHeight = useRef(0);
+
+    useEffect(() => {
+        const handleMouseMove = (e: MouseEvent) => {
+            if (!isDragging) return;
+            const deltaY = startY.current - e.clientY;
+            const newHeight = Math.max(150, Math.min(window.innerHeight - 150, startHeight.current + deltaY));
+            setHeight(newHeight);
+        };
+        const handleMouseUp = () => {
+            if (isDragging) {
+                setIsDragging(false);
+                document.body.style.cursor = '';
+                document.body.style.userSelect = '';
+            }
+        };
+        if (isDragging) {
+            window.addEventListener('mousemove', handleMouseMove);
+            window.addEventListener('mouseup', handleMouseUp);
+        }
+        return () => {
+            window.removeEventListener('mousemove', handleMouseMove);
+            window.removeEventListener('mouseup', handleMouseUp);
+        };
+    }, [isDragging]);
+
+    const handleResizeStart = (e: React.MouseEvent) => {
+        setIsDragging(true);
+        startY.current = e.clientY;
+        startHeight.current = height;
+        document.body.style.cursor = 'row-resize';
+        document.body.style.userSelect = 'none';
+    };
+
     useEffect(() => {
         if (scrollRef.current) scrollRef.current.scrollTop = scrollRef.current.scrollHeight;
     }, [history]);
@@ -248,7 +285,15 @@ export const IntegratedTerminal = ({ isOpen, onClose, onOpenFile }: TerminalProp
     if (!isOpen) return null;
 
     return (
-        <div className="relative h-48 md:h-64 bg-[var(--bg-activity)] border-t border-[var(--border)] z-20 flex flex-col transition-all duration-300">
+        <div 
+            style={{ height: `${height}px` }}
+            className={`relative bg-[var(--bg-activity)] border-t border-[var(--border)] z-20 flex flex-col ${isDragging ? '' : 'transition-all duration-300'}`}
+        >
+            {/* Drag Handle for resizing */}
+            <div 
+                className="absolute top-0 left-0 w-full h-1 cursor-row-resize z-30 hover:bg-[var(--accent)] transition-colors"
+                onMouseDown={handleResizeStart}
+            />
             <div className="h-8 bg-[var(--bg-activity)] flex justify-between items-center px-2 md:px-4 select-none flex-shrink-0">
                 {/* TABS - Responsive scrolling */}
                 <div className="flex items-center gap-4 md:gap-6 h-full overflow-x-auto custom-scrollbar no-scrollbar whitespace-nowrap scrollbar-hide">
