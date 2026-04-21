@@ -3461,7 +3461,7 @@ export const THEMES = {
 };
 
 export const THEME_CATEGORIES = {
-    'Core Favorites': ['darkModern', 'vscode', 'githubDark', 'nord', 'oneDarkPro', 'dracula', 'draculaSoft', 'oneDarkVivid', 'gruvboxMaterial', 'sublimeMaterial', 'materialDarker', 'beardedAnthracite'],
+    'Core Favorites': ['minDark', 'vscode', 'githubDark', 'nord', 'oneDarkPro', 'dracula', 'draculaSoft', 'oneDarkVivid', 'gruvboxMaterial', 'sublimeMaterial', 'materialDarker', 'beardedAnthracite'],
     'Neon & Retro': ['synthwave', 'cyberpunk', 'tokyoNight', 'monokai', 'monokaiPro', 'cobalt2', 'shadesOfPurple', 'matrix', 'aura', 'aycue', 'laserwave', 'outrun', 'hackers', 'retroAmber', 'rebeccaPurple', 'cyberpunkUmbra', 'synthwaveGlow', 'midnightPurple', 'midnightNeon', 'tokyoNightStorm', 'vibrantInk', 'amethyst', 'vintage', 'hackerOne', 'cyberpunkEdgerunner', 'pipBoyGreen', 'pipBoyAmber', 'commodore64', 'gameboy', 'celestial', 'nebula', 'slime', 'hackerPurple'],
     'Soft & Natural': ['gruvbox', 'rosePine', 'catppuccinMocha', 'everforestDark', 'kanagawa', 'noctis', 'pandaTheme', 'fairyFloss', 'coffee', 'serendipity', 'forestLullaby', 'matchaLatte', 'sakuraBlossom', 'desertOasis', 'emeraldDream', 'catppuccinFrappe', 'catppuccinMacchiato', 'rosePineMoon', 'zenburn', 'nordDeep', 'beardedGold', 'poimandres', 'flexokiDark', 'iceberg', 'nightfox', 'deepOcean'],
     'Minimal City': ['minDark', 'vesper', 'horizon', 'midnight', 'moonlight', 'githubDarkDimmed', 'amoled', 'plastic', 'slate', 'twilight', 'blackAndGold', 'glacier', 'spaceCloud', 'ayuDark', 'ayuMirage', 'shadesOfGray', 'materialOcean', 'onyxBlack', 'xcodeDark', 'auraDark', 'vitesseDark', 'oxocarbon', 'void', 'midnightCity', 'tailwindMoon'],

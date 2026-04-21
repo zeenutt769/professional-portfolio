@@ -92,16 +92,16 @@ const App = () => {
   const [currentTheme, setCurrentTheme] = useState(() => {
     const saved = localStorage.getItem('portfolio_theme');
     // @ts-ignore
-    return saved && THEMES[saved] ? saved : 'darkModern';
+    return saved && THEMES[saved] ? saved : 'minDark';
   });
 
   const [installedThemes, setInstalledThemes] = useState<string[]>(() => {
     const savedInstalled = localStorage.getItem('portfolio_installed_themes');
-    const activeTheme = localStorage.getItem('portfolio_theme') || 'darkModern';
+    const activeTheme = localStorage.getItem('portfolio_theme') || 'minDark';
 
     let list = savedInstalled
       ? JSON.parse(savedInstalled)
-      : ['darkModern', 'vscode', 'githubDark', 'nord', 'oneDarkPro', 'dracula'];
+      : ['minDark', 'vscode', 'githubDark', 'nord', 'oneDarkPro', 'dracula'];
 
     // Migration/Safety: If their active theme isn't in the installed list, add it automatically
     // This prevents "Not Installed" state for currently active themes on first load after the update
@@ -313,8 +313,8 @@ const App = () => {
 
     // Safety: If the uninstalled theme was the active one, revert to default
     if (currentTheme === themeKey) {
-      setCurrentTheme('darkModern');
-      addToast(`Uninstalled active theme '${name}'. Reverting to Dark Modern.`, 'warning');
+      setCurrentTheme('minDark');
+      addToast(`Uninstalled active theme '${name}'. Reverting to Minimal Dark.`, 'warning');
     } else {
       addToast(`Theme uninstalled: ${name}`, 'info');
     }

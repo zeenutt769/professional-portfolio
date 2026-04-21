@@ -1,7 +1,7 @@
 import { createContext } from 'react';
 
 export const ThemeContext = createContext({
-    theme: 'darkModern',
+    theme: 'minDark',
     setTheme: (_theme: string) => { },
     installedThemes: [] as string[],
     installTheme: (_theme: string) => { },

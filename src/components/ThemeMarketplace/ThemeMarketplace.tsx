@@ -430,7 +430,7 @@ export const ThemeMarketplace = () => {
                             onInstall={installTheme}
                             onUninstall={uninstallTheme}
                             onSet={setTheme}
-                            isBuiltIn={selectedCategory === 'Core Favorites' || ['darkModern', 'vscode', 'githubDark', 'nord', 'oneDarkPro', 'dracula'].includes(k)}
+                            isBuiltIn={selectedCategory === 'Core Favorites' || ['minDark', 'vscode', 'githubDark', 'nord', 'oneDarkPro', 'dracula'].includes(k)}
                         />
                     ))}
 

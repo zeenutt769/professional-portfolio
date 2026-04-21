@@ -36,7 +36,7 @@ const ThemeCollapsibleGroup = ({
 
     if (filteredThemes.length === 0) return null;
 
-    const isBuiltIn = (key: string) => ['darkModern', 'vscode', 'githubDark', 'nord', 'oneDarkPro', 'dracula'].includes(key) || title === 'Core Favorites';
+    const isBuiltIn = (key: string) => ['minDark', 'vscode', 'githubDark', 'nord', 'oneDarkPro', 'dracula'].includes(key) || title === 'Core Favorites';
 
     return (
         <div className="mb-px">
